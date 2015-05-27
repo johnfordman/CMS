@@ -1,4 +1,6 @@
 <?php
+
+namespace Entity;
 /**
  * Created by PhpStorm.
  * User: Fordman
@@ -6,7 +8,7 @@
  * Time: 11:03
  */
 
-class Content
+class ContentEntity
 {
     /**
      * @return mixed
@@ -133,19 +135,4 @@ class Content
     protected $created_at;
     protected $updated_at;
 
-    public function add(){
-
-    }
-    public function delete(){
-
-    }
-    public function update(){
-
-    }
-    public function view(){
-
-    }
-    public function liste(){
-
-    }
 }
